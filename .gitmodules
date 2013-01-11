@@ -1,3 +1,6 @@
 [submodule "vendor/submodules/org-mode"]
 	path = vendor/submodules/org-mode
 	url = git://orgmode.org/org-mode.git
+[submodule "vendor/submodules/solarized"]
+	path = vendor/submodules/solarized
+	url = https://github.com/bbatsov/solarized-emacs.git
