@@ -4,7 +4,7 @@
 (live-add-pack-lib "org-mode/lisp/")
 
 ;; Add the contrib dir to load-path
-(live-add-pack-lig "org-mode/contrib/lisp/")
+(live-add-pack-lib "org-mode/contrib/lisp/")
 
 (require 'org)
 (add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\|txt\\)$" . org-mode))
