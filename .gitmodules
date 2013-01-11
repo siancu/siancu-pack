@@ -4,3 +4,6 @@
 [submodule "vendor/submodules/solarized"]
 	path = vendor/submodules/solarized
 	url = https://github.com/bbatsov/solarized-emacs.git
+[submodule "vendor/submodules/zenburn"]
+	path = vendor/submodules/zenburn
+	url = https://github.com/bbatsov/zenburn-emacs.git
