@@ -52,3 +52,6 @@
   (lambda () (interactive)
     (let ((case-fold-search isearch-case-fold-search))
       (occur (if isearch-regexp isearch-string (regexp-quote isearch-string))))))
+
+;; hippie expand
+(global-set-key (kbd "M-/") 'hippie-expand)
