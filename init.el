@@ -1,5 +1,8 @@
 ;; Init file for my personal emacs-live pack
 
+;; Load my generic config
+(live-load-config-file "si-generic-conf.el")
+
 ;; Load perspective
 (live-load-config-file "perspective-conf.el")
 
