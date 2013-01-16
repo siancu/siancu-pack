@@ -62,3 +62,9 @@
 
 ;; Help should search more than just commands
 (global-set-key (kbd "C-h a") 'apropos)
+
+;; Rename the current buffer and file
+(global-set-key (kbd "C-x M-r") 'rename-current-buffer-file)
+
+;; Open Marked.app on the current file
+(global-set-key (kbd "C-c m") 'markdown-preview-file)

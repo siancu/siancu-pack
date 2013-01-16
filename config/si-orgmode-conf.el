@@ -12,6 +12,7 @@
 
 ;; Setup the agenda files
 (setq org-agenda-files (list "~/Dropbox/Stelu/org/si.org"
+                             "~/Dropbox/Stelu/org/inprodicon.org"
                              "~/Dropbox/Stelu/org/archive.org"))
 ;; Enable fast todo selection
 ;; Use C-c C-t KEY to select directly any other state
