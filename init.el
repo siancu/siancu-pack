@@ -4,7 +4,7 @@
 (live-load-config-file "si-generic-conf.el")
 
 ;; Load perspective
-(live-load-config-file "perspective-conf.el")
+;;(live-load-config-file "perspective-conf.el")
 
 ;; Load my org-mode config
 (live-load-config-file "si-orgmode-conf.el")
