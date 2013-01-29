@@ -68,3 +68,9 @@
 
 ;; Open Marked.app on the current file
 (global-set-key (kbd "C-c m") 'markdown-preview-file)
+
+;; Evil-leader generic mappings
+(evil-leader/set-key
+  "v" 'split-window-right
+  "h" 'split-window-below
+)
