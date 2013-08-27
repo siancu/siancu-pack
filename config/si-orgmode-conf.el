@@ -1,5 +1,12 @@
 ;; Personal org-mode configuration
 
+;; Generic org-mode configuration
+
+(add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\|txt\\)$" . org-mode))
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(define-key global-map "\C-cb" 'org-iswitchb)
+
 ;; Code block fontification
 (setq org-src-fontify-natively t)
 (setq org-src-tab-acts-natively t)
